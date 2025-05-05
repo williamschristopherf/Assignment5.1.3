@@ -15,5 +15,5 @@
     return false;
 }
 
-Console.WriteLine(ArrayDuplicates([1,2,3,4]));
-Console.WriteLine(ArrayDuplicates([1,4,3,3,6,8,9]));
+Console.WriteLine($"Array [1,2,3,4]: {ArrayDuplicates([1, 2, 3, 4])}");
+Console.WriteLine($"Array [1,4,3,3,6,8,9]: {ArrayDuplicates([1, 4, 3, 3, 6, 8, 9])}");
